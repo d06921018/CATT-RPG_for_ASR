@@ -27,7 +27,7 @@ ssl_dsu: /local/CommonVoice_eu_hubert_dsus.pt
 ```  
 These point to pre-extracted DSU files (saved with dictionary keys as filenames) to speed up inference.  
 Since these files are large, we provide them here:  
-[Google Drive link](https://drive.google.com/drive/folders/1Wey4Y8Man0SqyVXIZmhqewAEQtW3o8PH?usp=sharing)  
+[Google Drive link](https://drive.google.com/drive/folders/1wxXvjM7mR9alEmJ_gnkHQtYpDryQE0PV?usp=sharing)  
 
 For Common Voice, you can switch the language with:  
 ```yaml
