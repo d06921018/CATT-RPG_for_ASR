@@ -43,7 +43,7 @@ CUDA_VISIBLE_DEVICES=2 python LibriSpeech/ASR/LSTM/eval_cattrpg.py     LibriSpee
 ```  
 
 - `output_folder`: Path to our pretrained models. Due to size limits, we release them here:  
-  [Google Drive link](https://drive.google.com/drive/folders/1Wey4Y8Man0SqyVXIZmhqewAEQtW3o8PH?usp=sharing)  
+  [Google Drive link](https://drive.google.com/drive/folders/1wxXvjM7mR9alEmJ_gnkHQtYpDryQE0PV?usp=sharing)  
 
 - `data_folder`: Directory of audio files (LibriSpeech / LibriLight / Common Voice).  
 
