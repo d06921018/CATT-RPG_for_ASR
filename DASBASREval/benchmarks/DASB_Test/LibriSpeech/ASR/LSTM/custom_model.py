@@ -289,7 +289,7 @@ class Reprogram_Layer(torch.nn.Module):
             #  Add unique token IDs across diffrent codebooks by adding num_codebooks * vocab_size
 
             llm_embeddings = self.prototype_dense(self.llm_embeddings.to(in_embs.device).transpose(1,0)).transpose(1,0)
-            llm_embeddings = self.llm_embeddings.to(in_embs.device)
+            #llm_embeddings = self.llm_embeddings.to(in_embs.device)
             llm_embeddings = llm_embeddings.unsqueeze(0).repeat(in_embs.size(0), 1, 1)
             reprogram_in_embs = self.reprogram_layer(in_embs, llm_embeddings, llm_embeddings)
 
