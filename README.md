@@ -26,8 +26,7 @@ ssl_dsu: /local/LibriSpeech100_hubert_dsus.pt
 ssl_dsu: /local/CommonVoice_eu_hubert_dsus.pt
 ```  
 These point to pre-extracted DSU files (saved with dictionary keys as filenames) to speed up inference.  
-Since these files are large, we provide them here:  
-[Google Drive link](https://drive.google.com/drive/folders/1wxXvjM7mR9alEmJ_gnkHQtYpDryQE0PV?usp=sharing)  
+Due to issues with cloud storage, these files are temporarily unavailable. We will release them after the issues are resolved and the materials are properly organized. 
 
 For Common Voice, you can switch the language with:  
 ```yaml
