@@ -40,11 +40,9 @@ We provide an example using **HuBERT trained on LS100** as the extractor model f
 ```bash
 CUDA_VISIBLE_DEVICES=2 python LibriSpeech/ASR/LSTM/eval_cattrpg.py     LibriSpeech/ASR/LSTM/hparams/eval_catt_rpg.yaml     --output_folder outputs/LibriSpeech/hubert_cattrpg_ls100     --data_folder /mnt/md0/dataset/LibriSpeech
 ```  
+- `output_folder`: Path to pretrained model checkpoints. Due to current cloud storage issues, these files are temporarily unavailable and will be released after proper organization.
 
-- `output_folder`: Path to our pretrained models. Due to size limits, we release them here:  
-  [Google Drive link](https://drive.google.com/drive/folders/1wxXvjM7mR9alEmJ_gnkHQtYpDryQE0PV?usp=sharing)  
-
-- `data_folder`: Directory of audio files (LibriSpeech / LibriLight / Common Voice).  
+- `data_folder`: Directory of audio files (e.g., LibriSpeech, LibriLight, Common Voice), which should be prepared by users according to the official dataset distributions.
 
 ---
 
